@@ -1,0 +1,91 @@
+/*Í·²¿²¹³ä*/
+.nav div:nth-child(2) a{
+    color:white;
+}
+a:hover{
+    color: white;
+}
+
+.service{
+    padding: 50px;
+}
+.our-service-top h1{
+    text-align: center;
+    margin: 0;
+    color: #2e2b34;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.our-service-top span{
+    color: rgba(34, 98, 163, 0.96);
+}
+.our-service-bottom{
+    margin-top: 50px;
+}
+.our-service-bottom img{
+    width:100%;
+}
+.our-service-bottom P{
+    font-size:16px;
+}
+.our-service-bottom a{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    background-color:#2e2b34 ;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    transition: all .3s linear;
+
+}
+
+.our-service-bottom a:hover{
+    border: 2px solid #2e2b34;
+    background-color:white ;
+    color:#2e2b34;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+
+}
+
+
+/*special-service*/
+.special-service{
+     padding:100px;
+     background-color: #f2f2f2;
+ }
+.special-service-top{
+   padding:30px 0px 30px 0px;
+}
+.special-service-top h1{
+    margin: 0;
+    color: #2e2b34;
+    font-size: 32px;
+    font-weight: bold
+}
+.special-service-top span{
+  color:rgba(34, 98, 163, 0.96);
+}
+
+.special-service-bottom h3{
+    margin: 0;
+    color: #2e2b34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.special-service-bottom p{
+    font-style: italic;
+    line-height: 40px;
+    font-weight: 500;
+}
+.special-service-bottom ul li{
+    list-style-image: url("../img/left.png");
+    font-style: italic;
+    line-height: 40px;
+    font-weight: 500;
+}

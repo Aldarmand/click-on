@@ -1,0 +1,7 @@
+/*Í·²¿²¹³ä*/
+.nav div:nth-child(7) a{
+    color:white;
+}
+a:hover{
+    color: white;
+}

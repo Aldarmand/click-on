@@ -1,0 +1,41 @@
+/*get-notified*/
+.get-notified{
+    margin-top:100px;
+    background-color: #2e2b34;
+    height:100px;
+}
+.get-notified h3,.get-notified p{
+    color:white;
+    text-align: center;
+}
+.get-right input[type="text"]{
+    margin-top:20px;
+    width: 70%;
+    color: #e6ccb2;
+    padding: 14px 14px 14px 30px;
+    outline: none;
+    font-size: 18px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: 2px solid #e6ccb2;
+    background: none;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+/*footer*/
+.footer {
+    background-color: #2e2b34;
+    height: 50px;
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    color: #80868c;
+    font-size: 15px;
+}
+.footer span{
+    color:#e6ccb2;
+    font-size: 15px;
+}

@@ -1,0 +1,102 @@
+/*Í·²¿²¹³ä*/
+.nav div:nth-child(4) a{
+    color:white;
+}
+a:hover{
+    color: white;
+}
+
+/*our blog*/
+.blog{
+    padding: 50px;
+}
+.our-blog-top h1{
+    text-align: center;
+    margin: 0;
+    color: #2e2b34;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.our-blog-top span{
+    color: rgba(34, 98, 163, 0.96);
+}
+.our-blog-top p{
+    text-align: center;
+    color: #6d6b71;
+    line-height: 1.8em;
+    font-size: 16px;
+    width: 64%;
+    margin: 45px auto 0 auto
+}
+
+/*blog-grids*/
+.blog-grids h3 a{
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #2e2b34;
+     font-weight: bold
+ }
+
+.blog-grids span{
+    color: rgba(34, 98, 163, 1);
+}
+
+/*blog-sidebar*/
+.blog-sidebar{
+    margin-top: 25px;
+}
+
+
+.blog-sidebar h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+    background: #2e2b34
+}
+.blog-sidebar ul{
+   padding:0;
+}
+.blog-sidebar ul li{
+    display: block;
+    line-height: 1.8em;
+    background: rgba(34, 98, 163, 0.96);
+    padding: 15px 15px;
+    border-bottom: 1px solid #fff;
+}
+.blog-sidebar ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.blog-sidebar ul li:hover{
+    background: #2e2b34;
+    transition: all .5s linear;
+}
+
+/*pages*/
+.page{
+    margin-top:30px;
+
+}
+.page ul li{
+    float:left;
+    width:60px;
+    height:40px;
+    background-color: #005AA0;
+    line-height: 40px;
+    text-align: center;
+    border-right:1px solid white;
+
+}
+.page ul li a{
+    color:white;
+}
+.page ul li:hover{
+    background: #2e2b34;
+    transition: all .5s linear;
+}

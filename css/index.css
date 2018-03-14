@@ -1,0 +1,225 @@
+/*banner*/
+.banner{
+    background:url("../img/33.jpg") no-repeat 0px 0px;
+    background-size: 100%;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+}
+
+
+/*nav*/
+
+.nav{
+    max-height:97px;
+    font-size: 1.2em;
+    line-height:65px;
+    border: 3px solid #29292f;
+    background: #e6ccb2;
+    margin-top: 2.5%;
+}
+.col-xs-2{
+    text-align: center;
+}
+
+.nav-box{
+    height:100%;
+    width:100%;
+}
+.nav a{
+    color:black;
+    font-size: 26px;
+    font-weight:bold;
+}
+.nav a:hover{
+    color:white;
+}
+.banner-info-before{
+    margin-top:30%;
+    margin-left:-2500px;
+    text-align: center;
+    transition: all .5s linear;
+}
+.banner-info-left{
+    margin-top:30%;
+    margin-left:0;
+    transition: all .5s linear;
+    text-align: center;
+}
+.banner-info-right{
+    margin-top:30%;
+    margin-right:-2500px;
+    transition: all .5s linear;
+    text-align: center;
+}
+.banner-info h1{
+    color:white;
+    font-weight: 700;
+    font-size:3em;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.banner-info span{
+    color:black;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.banner-info p{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    margin:18px 0px 0px 0px;
+}
+.view{
+    margin-top: 40px;
+    text-align: center;
+}
+.view a{
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    color:white;
+    background-color: #005AA0;
+    border-radius: 3px;
+    margin-bottom:10px;
+}
+.view a:hover{
+    background-color:rgb(46, 43, 52);
+}
+/*banner---bottom*/
+.banner-bottom{
+    background-color: #2e2b34;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding:100px;
+    position: relative;
+}
+.banner-bottom-top h1{
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+
+}
+.banner-bottom-top span{
+    color: #e6ccb2;
+}
+.banner-bottom-top p{
+    text-align: center;
+    color: #A3A3A3;
+    line-height: 1.8em;
+    font-size: 16px;
+    width: 85%;
+    margin: 45px auto;
+}
+.banner-bottom-grid,.banner-bottom-grid:hover{
+    width:55px;
+    height:55px;
+    position: absolute;
+    left:50%;
+    margin-left:-30px;
+}
+.banner-bottom-bottom h3{
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 3.7em;
+    color: #ffffff;
+}
+.banner-bottom-bottom{
+    margin:0 auto;
+}
+.banner-bottom-bottom p{
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #e6ccb2;
+    margin: 10px 0 0 0;
+}
+.img1{
+    background:url(../img/img-sprite.png) -5px -5px;
+}
+.img2{
+    background:url(../img/img-sprite.png) -80px -5px;
+}
+.img3{
+    background:url(../img/img-sprite.png) -155px -5px;
+}
+/*banner 结束*/
+
+/*project开始*/
+.project{
+    padding:100px 0;
+}
+.project-header h2{
+    text-align: center;
+    margin: 0;
+    color: #2e2b34;
+    font-size: 32px;
+    font-weight: bold;
+}
+.project-header p{
+    text-align: center;
+    line-height: 1.8em;
+    color: #2e2b34;
+    font-size: 16px;
+    width: 64%;
+    margin: 45px auto 0 auto;
+}
+.project-grids{
+    margin-top:20px;
+}
+.project-grids h3,.project-grids p{
+    text-align:center;
+}
+.project-grids img{
+    width:100%;
+}
+
+/*下部滑动*/
+
+#slide{
+    width:100%;
+    height:260px;
+    margin: 0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#slide ul.slide-img{
+    width:4000px;
+    position:absolute;
+    left:0;
+    padding:0;
+}
+#slide ul.slide-img>li{
+    float:left;
+    list-style: none;
+    border:4px solid transparent;
+
+}
+#slide ul.slide-img>li:hover{
+    border:4px solid black;
+
+}
+
+
+/*about*/
+.about-img{
+    width:58px;
+    height:58px;
+    margin: 0 auto;
+    padding-top:100px;
+}
+.des h3{
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:80px;
+}
+.des p{
+    text-align: center;
+    color: #2e2b34;
+    font-size: 16px;
+    line-height: 1.8em;
+}

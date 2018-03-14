@@ -1,0 +1,24 @@
+//页面头部加载
+(()=>{
+    $.ajax({
+        type:"GET",
+        url:"top.html",
+        success:function(html){
+            $("#header").html(html);
+        },
+        error:function(html){
+            alert("您的网络出错，请稍后");
+        }
+    })
+//页面尾部加载
+    $.ajax({
+        type:"GET",
+        url:"footer.html",
+        success:function(html){
+            $("#footer").html(html);
+        },
+        error:function(html){
+            alert("您的网络出错，请稍后");
+        }
+    })
+})();
